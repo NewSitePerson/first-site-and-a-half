@@ -1,0 +1,255 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+img{
+  width:100%;
+}
+
+
+p{
+  text-align:center;
+}
+
+div img{
+    width:130px;
+    height:110px;
+    display:block;
+    margin:auto;
+}
+
+div{
+  display: inline-block;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
+
+
+.container{
+
+grid-template-columns: repeat(1, 1fr);
+gap: 10px;
+
+grid-template-rows: repeat(1, 1fr);
+gap: 10px;
+
+}
+
+
+
+@media screen and (min-width: 772px) {
+
+.container {
+
+grid-template-columns: repeat(2, 2fr);
+
+}
+
+.img{
+
+border-radius: 50%;
+
+}
+
+.img-last-child{
+
+width: 400px;
+
+}
+
+div {
+
+width: 45%;
+
+}
+
+div img {
+
+height: 30%;
+
+}
+
+
+
+}
+
+@media screen and (min-width: 998px) {
+
+.img {
+
+border-radius: 8px;
+
+}
+
+.img:nth child(3n) {
+
+
+width: 400px;
+
+}
+
+.img:nth child(6n) {
+
+
+width: 400px;
+
+}
+
+.img:nth child(9n) {
+
+
+width: 400px;
+
+}
+
+
+
+div {
+
+width: 30%;
+
+}
+
+
+}
+
+@media (prefers-reduced-motion: reduce){
+
+
+scroll-behavior: none;
+
+}
+
+@media (prefers-color-schemes: dark) {
+
+.img {
+
+background-color: #26294f;
+
+font-color: #ecf94f;
+
+border-color: #000000;
+
+}
+
+}
